@@ -31,5 +31,5 @@ $(document).ready(function() {
     });
 
 	$('.slider').bxSlider({slideWidth: 1000, pager: true, caption: false, auto: true });
-	$('.slider2').bxSlider({minSlides: 3, maxSlides: 3, slideWidth: 233, slideMargin: 15, pager: false, caption: true, nextText: '', prevText: '', auto: true});
+	// $('.slider2').bxSlider({minSlides: 3, maxSlides: 3, slideWidth: 233, slideMargin: 15, pager: false, caption: true, nextText: '', prevText: '', auto: true});
 });
