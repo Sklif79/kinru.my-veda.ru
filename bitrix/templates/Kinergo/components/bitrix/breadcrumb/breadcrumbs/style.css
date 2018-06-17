@@ -1,0 +1,23 @@
+#slider + .bx-breadcrumb {
+    margin-top: -25px;
+}
+
+#slider + .content .bx-breadcrumb {
+    margin-top: -25px;
+}
+
+.bx-breadcrumb {
+    margin-bottom: 20px;
+}
+
+.bx-breadcrumb-item {
+    display: inline-block;
+}
+
+.delimeter {
+    display: inline-block;
+}
+
+.bx-breadcrumb-item a {
+    color: #221f1f;
+}
