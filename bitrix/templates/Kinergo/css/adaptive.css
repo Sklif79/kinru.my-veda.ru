@@ -933,12 +933,12 @@ div.bx-wrapper .image {
     width: 165px;height: 165px;
   }
   .article .info {
-    width: 285px;
+    width: 323px;
     overflow: hidden;
     height: 134px;
   }
   
-  
+
   #head .content > .info .language li {
   margin-top: -1px;
 }
