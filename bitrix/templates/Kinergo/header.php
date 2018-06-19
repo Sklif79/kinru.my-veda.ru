@@ -5,13 +5,15 @@ $page = $APPLICATION->GetCurPage();?>
 <head>
        <?$APPLICATION->ShowHead();?>
 		<title><?$APPLICATION->ShowTitle();?></title>
-		<base href="https://kinergo.ru/">
+	<base href="http://kinru.my-veda.ru/">
 	<link rel="shortcut icon" href="<?=SITE_TEMPLATE_PATH?>/img/favicon.png" />
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
-	<link rel='stylesheet' type='text/css' href='https://kinergo.eu/bitrix/templates/Kinergo/css/style.css' />
-	<link rel='stylesheet' type='text/css' href='https://kinergo.eu/bitrix/templates/Kinergo/css/luiwadjogs.css' />
+    <link rel='stylesheet' type='text/css' href='<?=SITE_TEMPLATE_PATH?>/slick/slick.css' />
+    <link rel='stylesheet' type='text/css' href='<?=SITE_TEMPLATE_PATH?>/slick/slick-theme.css' />
+	<link rel='stylesheet' type='text/css' href='http://kineu.my-veda.ru/bitrix/templates/Kinergo/css/style.css' />
+	<link rel='stylesheet' type='text/css' href='http://kineu.my-veda.ru/bitrix/templates/Kinergo/css/luiwadjogs.css' />
 
 	<link rel='stylesheet' type='text/css' href='<?=SITE_TEMPLATE_PATH?>/css/popup.css' />
 	<link rel='stylesheet' type='text/css' href='<?=SITE_TEMPLATE_PATH?>/css/jquery.bxslider.css' />
@@ -22,6 +24,7 @@ $page = $APPLICATION->GetCurPage();?>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-1.11.1.min.js" type="text/javascript"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/slick/slick.min.js"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.popupoverlay.js" type="text/javascript"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.bxslider.min.js" type="text/javascript"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/initialization.js" type="text/javascript"></script>
