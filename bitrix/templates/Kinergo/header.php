@@ -171,8 +171,8 @@ font-size: 12px;
 					</ul>
 */?>
 				</div>
-				
-				
+
+                <div class='header-menu-wrap'>
 				 <div class="mobile_navbar">
 
                     <form class='search' method='GET' action="https://<?=$_SERVER['HTTP_HOST']?>/sreach.php" >
@@ -211,6 +211,7 @@ font-size: 12px;
 );?>
 				</div>
 			</div>
+		</div>
 		</div>
 
 
