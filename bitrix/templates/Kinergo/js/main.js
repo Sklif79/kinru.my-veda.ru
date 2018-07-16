@@ -161,6 +161,14 @@ $(document).ready(function() {
         })
     })();
 
+    (function () {
+        $('.btn-tech').on('click', function (e) {
+            if ($('.tbl-equip-wrap').length) {
+                e.preventDefault();
+                $('.tbl-equip-wrap').slideToggle();
+            }
+        })
+    })();
 });
 
 function alignmentArticleDescription() {
